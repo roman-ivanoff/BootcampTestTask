@@ -15,7 +15,7 @@ struct EquipmentDto: Decodable {
     let navalShip: Int
     let antiAircraftWarfare: Int
     let specialEquipment: Int?
-    let mobileSRBMSystem: Int
+    let mobileSRBMSystem: Int?
     let greatestLossesDirection: String?
     let vehiclesAndFuelTanks: Int?
     let cruiseMissiles: Int?

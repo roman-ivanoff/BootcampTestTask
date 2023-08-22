@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FDDE2F1A2A95174500BF2788 /* EquipmentDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F192A95174500BF2788 /* EquipmentDto.swift */; };
 		FDDE2F1C2A9519D800BF2788 /* EquipmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F1B2A9519D800BF2788 /* EquipmentModel.swift */; };
+		FDDE2F1F2A951D1A00BF2788 /* EquipmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F1E2A951D1A00BF2788 /* EquipmentService.swift */; };
+		FDDE2F222A951E2F00BF2788 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F212A951E2F00BF2788 /* ServiceError.swift */; };
 		FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED0092A93E2F0003546BC /* AppDelegate.swift */; };
 		FDDED00C2A93E2F0003546BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00B2A93E2F0003546BC /* SceneDelegate.swift */; };
 		FDDED00E2A93E2F0003546BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00D2A93E2F0003546BC /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		FDDE2F192A95174500BF2788 /* EquipmentDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDto.swift; sourceTree = "<group>"; };
 		FDDE2F1B2A9519D800BF2788 /* EquipmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentModel.swift; sourceTree = "<group>"; };
+		FDDE2F1E2A951D1A00BF2788 /* EquipmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentService.swift; sourceTree = "<group>"; };
+		FDDE2F212A951E2F00BF2788 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		FDDED0062A93E2F0003546BC /* BootcampTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootcampTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDED0092A93E2F0003546BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDED00B2A93E2F0003546BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,23 @@
 			path = Dto;
 			sourceTree = "<group>";
 		};
+		FDDE2F1D2A951D0B00BF2788 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FDDE2F202A951E1C00BF2788 /* Networking */,
+				FDDE2F212A951E2F00BF2788 /* ServiceError.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDDE2F202A951E1C00BF2788 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FDDE2F1E2A951D1A00BF2788 /* EquipmentService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		FDDECFFD2A93E2F0003546BC = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +96,7 @@
 		FDDED0082A93E2F0003546BC /* BootcampTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				FDDE2F1D2A951D0B00BF2788 /* Services */,
 				FDDE2F172A950EAE00BF2788 /* Models */,
 				FDDED01E2A93E9CD003546BC /* Resources */,
 				FDDED01D2A93E976003546BC /* SupportingFiles */,
@@ -176,6 +198,8 @@
 				FDDE2F1C2A9519D800BF2788 /* EquipmentModel.swift in Sources */,
 				FDDED00E2A93E2F0003546BC /* ViewController.swift in Sources */,
 				FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */,
+				FDDE2F1F2A951D1A00BF2788 /* EquipmentService.swift in Sources */,
+				FDDE2F222A951E2F00BF2788 /* ServiceError.swift in Sources */,
 				FDDED00C2A93E2F0003546BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
