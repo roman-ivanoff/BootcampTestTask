@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDDE2F1A2A95174500BF2788 /* EquipmentDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F192A95174500BF2788 /* EquipmentDto.swift */; };
+		FDDE2F1C2A9519D800BF2788 /* EquipmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F1B2A9519D800BF2788 /* EquipmentModel.swift */; };
 		FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED0092A93E2F0003546BC /* AppDelegate.swift */; };
 		FDDED00C2A93E2F0003546BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00B2A93E2F0003546BC /* SceneDelegate.swift */; };
 		FDDED00E2A93E2F0003546BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00D2A93E2F0003546BC /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FDDE2F192A95174500BF2788 /* EquipmentDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDto.swift; sourceTree = "<group>"; };
+		FDDE2F1B2A9519D800BF2788 /* EquipmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentModel.swift; sourceTree = "<group>"; };
 		FDDED0062A93E2F0003546BC /* BootcampTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootcampTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDED0092A93E2F0003546BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDED00B2A93E2F0003546BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDDE2F172A950EAE00BF2788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDDE2F182A95171E00BF2788 /* Dto */,
+				FDDE2F1B2A9519D800BF2788 /* EquipmentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDDE2F182A95171E00BF2788 /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				FDDE2F192A95174500BF2788 /* EquipmentDto.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
 		FDDECFFD2A93E2F0003546BC = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +75,7 @@
 		FDDED0082A93E2F0003546BC /* BootcampTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				FDDE2F172A950EAE00BF2788 /* Models */,
 				FDDED01E2A93E9CD003546BC /* Resources */,
 				FDDED01D2A93E976003546BC /* SupportingFiles */,
 				FDDED00D2A93E2F0003546BC /* ViewController.swift */,
@@ -150,6 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDE2F1A2A95174500BF2788 /* EquipmentDto.swift in Sources */,
+				FDDE2F1C2A9519D800BF2788 /* EquipmentModel.swift in Sources */,
 				FDDED00E2A93E2F0003546BC /* ViewController.swift in Sources */,
 				FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */,
 				FDDED00C2A93E2F0003546BC /* SceneDelegate.swift in Sources */,
