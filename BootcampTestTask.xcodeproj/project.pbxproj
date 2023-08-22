@@ -77,6 +77,14 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		FDDE2F232A95230600BF2788 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDDED00D2A93E2F0003546BC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		FDDECFFD2A93E2F0003546BC = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +104,11 @@
 		FDDED0082A93E2F0003546BC /* BootcampTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				FDDE2F232A95230600BF2788 /* Controllers */,
 				FDDE2F1D2A951D0B00BF2788 /* Services */,
 				FDDE2F172A950EAE00BF2788 /* Models */,
 				FDDED01E2A93E9CD003546BC /* Resources */,
 				FDDED01D2A93E976003546BC /* SupportingFiles */,
-				FDDED00D2A93E2F0003546BC /* ViewController.swift */,
 			);
 			path = BootcampTestTask;
 			sourceTree = "<group>";
