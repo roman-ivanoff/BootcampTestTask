@@ -15,6 +15,7 @@
 		FDDE2F2B2A95290C00BF2788 /* BTTIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F2A2A95290C00BF2788 /* BTTIdentifiable.swift */; };
 		FDDE2F2E2A9529A800BF2788 /* UIView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F2D2A9529A800BF2788 /* UIView+Configuration.swift */; };
 		FDDE2F332A952ACE00BF2788 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDE2F352A952ACE00BF2788 /* Localizable.strings */; };
+		FDDE2F372A952F1300BF2788 /* EquipmentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE2F362A952F1300BF2788 /* EquipmentTableView.swift */; };
 		FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED0092A93E2F0003546BC /* AppDelegate.swift */; };
 		FDDED00C2A93E2F0003546BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00B2A93E2F0003546BC /* SceneDelegate.swift */; };
 		FDDED00E2A93E2F0003546BC /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00D2A93E2F0003546BC /* EquipmentViewController.swift */; };
@@ -31,6 +32,7 @@
 		FDDE2F2A2A95290C00BF2788 /* BTTIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTTIdentifiable.swift; sourceTree = "<group>"; };
 		FDDE2F2D2A9529A800BF2788 /* UIView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Configuration.swift"; sourceTree = "<group>"; };
 		FDDE2F342A952ACE00BF2788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDDE2F362A952F1300BF2788 /* EquipmentTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableView.swift; sourceTree = "<group>"; };
 		FDDED0062A93E2F0003546BC /* BootcampTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootcampTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDED0092A93E2F0003546BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDED00B2A93E2F0003546BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDE2F272A9528CA00BF2788 /* EquipmentTableViewCell.swift */,
+				FDDE2F362A952F1300BF2788 /* EquipmentTableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				FDDE2F1A2A95174500BF2788 /* EquipmentDto.swift in Sources */,
 				FDDE2F1C2A9519D800BF2788 /* EquipmentModel.swift in Sources */,
+				FDDE2F372A952F1300BF2788 /* EquipmentTableView.swift in Sources */,
 				FDDE2F282A9528CA00BF2788 /* EquipmentTableViewCell.swift in Sources */,
 				FDDED00E2A93E2F0003546BC /* EquipmentViewController.swift in Sources */,
 				FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */,
