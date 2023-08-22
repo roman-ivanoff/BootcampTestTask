@@ -9,6 +9,8 @@ class EquipmentTableViewCell: UITableViewCell, BTTIdentifiable {
 
         addViews()
         backgroundColor = .white
+        separatorInset = .zero
+        selectionStyle = .none
     }
 
     required init?(coder: NSCoder) {
@@ -25,11 +27,11 @@ class EquipmentTableViewCell: UITableViewCell, BTTIdentifiable {
 
         NSLayoutConstraint.activate([
             dateLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
-            dateLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 4),
+            dateLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 0),
             dateLabel.trailingAnchor.constraint(equalTo: dayLabel.leadingAnchor, constant: 4),
 
             dayLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
-            dayLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 4)
+            dayLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 0)
         ])
     }
 }
