@@ -11,7 +11,7 @@ class EquipmentContentView: UIView {
 
     init() {
         super.init(frame: UIScreen.main.bounds)
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         addElements()
     }
 

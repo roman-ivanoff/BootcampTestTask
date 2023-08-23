@@ -8,7 +8,7 @@ class EquipmentTableViewCell: UITableViewCell, BTTIdentifiable {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
         addViews()
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         separatorInset = .zero
         selectionStyle = .none
     }
