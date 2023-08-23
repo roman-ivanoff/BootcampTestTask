@@ -1,6 +1,6 @@
 import Foundation
 
-struct EquipmentDto: Decodable {
+struct EquipmentDto: Codable, Equatable {
     let date: String
     let day: Int
     let aircraft: Int

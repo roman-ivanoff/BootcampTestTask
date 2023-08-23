@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "0DF3CA88-D5E3-416A-BA71-8431EF7DEAEF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-mock"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BootcampTestTask.xcodeproj",
+      "identifier" : "FDDED0052A93E2F0003546BC",
+      "name" : "BootcampTestTask"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BootcampTestTask.xcodeproj",
+        "identifier" : "FDF4D61B2A964CE3000A4628",
+        "name" : "BootcampTestTaskTests"
+      }
+    }
+  ],
+  "version" : 1
+}

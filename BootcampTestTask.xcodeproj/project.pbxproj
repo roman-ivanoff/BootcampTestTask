@@ -28,7 +28,19 @@
 		FDDED0162A93E2F6003546BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDED0142A93E2F6003546BC /* LaunchScreen.storyboard */; };
 		FDF4D6152A95F9F0000A4628 /* EquipmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D6142A95F9F0000A4628 /* EquipmentDetailsViewController.swift */; };
 		FDF4D6172A95FA10000A4628 /* EquipmentDetailsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D6162A95FA10000A4628 /* EquipmentDetailsContentView.swift */; };
+		FDF4D61F2A964CE3000A4628 /* BootcampTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D61E2A964CE3000A4628 /* BootcampTestTaskTests.swift */; };
+		FDF4D6262A964CF4000A4628 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D6252A964CF4000A4628 /* MockURLProtocol.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF4D6202A964CE3000A4628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDECFFE2A93E2F0003546BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDED0052A93E2F0003546BC;
+			remoteInfo = BootcampTestTask;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FDB615702A954D3C003A86E9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
@@ -54,10 +66,21 @@
 		FDDED0172A93E2F6003546BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF4D6142A95F9F0000A4628 /* EquipmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailsViewController.swift; sourceTree = "<group>"; };
 		FDF4D6162A95FA10000A4628 /* EquipmentDetailsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailsContentView.swift; sourceTree = "<group>"; };
+		FDF4D61C2A964CE3000A4628 /* BootcampTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF4D61E2A964CE3000A4628 /* BootcampTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampTestTaskTests.swift; sourceTree = "<group>"; };
+		FDF4D6252A964CF4000A4628 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		FDF4D6272A9657E5000A4628 /* BootcampTestTask.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BootcampTestTask.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FDDED0032A93E2F0003546BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D6192A964CE3000A4628 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDED0082A93E2F0003546BC /* BootcampTestTask */,
+				FDF4D61D2A964CE3000A4628 /* BootcampTestTaskTests */,
 				FDDED0072A93E2F0003546BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDED0062A93E2F0003546BC /* BootcampTestTask.app */,
+				FDF4D61C2A964CE3000A4628 /* BootcampTestTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +225,16 @@
 			path = EquipmentDetails;
 			sourceTree = "<group>";
 		};
+		FDF4D61D2A964CE3000A4628 /* BootcampTestTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D6272A9657E5000A4628 /* BootcampTestTask.xctestplan */,
+				FDF4D61E2A964CE3000A4628 /* BootcampTestTaskTests.swift */,
+				FDF4D6252A964CF4000A4628 /* MockURLProtocol.swift */,
+			);
+			path = BootcampTestTaskTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,6 +255,24 @@
 			productReference = FDDED0062A93E2F0003546BC /* BootcampTestTask.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FDF4D61B2A964CE3000A4628 /* BootcampTestTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF4D6222A964CE3000A4628 /* Build configuration list for PBXNativeTarget "BootcampTestTaskTests" */;
+			buildPhases = (
+				FDF4D6182A964CE3000A4628 /* Sources */,
+				FDF4D6192A964CE3000A4628 /* Frameworks */,
+				FDF4D61A2A964CE3000A4628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF4D6212A964CE3000A4628 /* PBXTargetDependency */,
+			);
+			name = BootcampTestTaskTests;
+			productName = BootcampTestTaskTests;
+			productReference = FDF4D61C2A964CE3000A4628 /* BootcampTestTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,6 +285,10 @@
 				TargetAttributes = {
 					FDDED0052A93E2F0003546BC = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					FDF4D61B2A964CE3000A4628 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FDDED0052A93E2F0003546BC;
 					};
 				};
 			};
@@ -249,6 +306,7 @@
 			projectRoot = "";
 			targets = (
 				FDDED0052A93E2F0003546BC /* BootcampTestTask */,
+				FDF4D61B2A964CE3000A4628 /* BootcampTestTaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +319,13 @@
 				FDDED0162A93E2F6003546BC /* LaunchScreen.storyboard in Resources */,
 				FDDE2F332A952ACE00BF2788 /* Localizable.strings in Resources */,
 				FDDED0132A93E2F6003546BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4D61A2A964CE3000A4628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +357,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDF4D6182A964CE3000A4628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF4D61F2A964CE3000A4628 /* BootcampTestTaskTests.swift in Sources */,
+				FDF4D6262A964CF4000A4628 /* MockURLProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF4D6212A964CE3000A4628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDED0052A93E2F0003546BC /* BootcampTestTask */;
+			targetProxy = FDF4D6202A964CE3000A4628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FDDE2F352A952ACE00BF2788 /* Localizable.strings */ = {
@@ -482,6 +564,40 @@
 			};
 			name = Release;
 		};
+		FDF4D6232A964CE3000A4628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanIvanov.BootcampTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BootcampTestTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BootcampTestTask";
+			};
+			name = Debug;
+		};
+		FDF4D6242A964CE3000A4628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanIvanov.BootcampTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BootcampTestTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BootcampTestTask";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -499,6 +615,15 @@
 			buildConfigurations = (
 				FDDED01B2A93E2F6003546BC /* Debug */,
 				FDDED01C2A93E2F6003546BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF4D6222A964CE3000A4628 /* Build configuration list for PBXNativeTarget "BootcampTestTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF4D6232A964CE3000A4628 /* Debug */,
+				FDF4D6242A964CE3000A4628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
