@@ -195,4 +195,12 @@ extension EquipmentViewController: UITableViewDelegate, UITableViewDataSource {
 
         return cell
     }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let equipment = isFiltering ?
+        equipmentModel.filteredEquipments[indexPath.row] :
+        equipmentModel.equipments[indexPath.row]
+        let equipmentDetailsVC = EquipmentDetailsViewController(equipment: equipment)
+        navigationController?.pushViewController(equipmentDetailsVC, animated: true)
+    }
 }

@@ -26,6 +26,8 @@
 		FDDED00E2A93E2F0003546BC /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDED00D2A93E2F0003546BC /* EquipmentViewController.swift */; };
 		FDDED0132A93E2F6003546BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDED0122A93E2F6003546BC /* Assets.xcassets */; };
 		FDDED0162A93E2F6003546BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDED0142A93E2F6003546BC /* LaunchScreen.storyboard */; };
+		FDF4D6152A95F9F0000A4628 /* EquipmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D6142A95F9F0000A4628 /* EquipmentDetailsViewController.swift */; };
+		FDF4D6172A95FA10000A4628 /* EquipmentDetailsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4D6162A95FA10000A4628 /* EquipmentDetailsContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		FDDED0122A93E2F6003546BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDED0152A93E2F6003546BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDDED0172A93E2F6003546BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF4D6142A95F9F0000A4628 /* EquipmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailsViewController.swift; sourceTree = "<group>"; };
+		FDF4D6162A95FA10000A4628 /* EquipmentDetailsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailsContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,20 +101,9 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		FDDE2F232A95230600BF2788 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				FDDED00D2A93E2F0003546BC /* EquipmentViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		FDDE2F242A95281800BF2788 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FDDE2F272A9528CA00BF2788 /* EquipmentTableViewCell.swift */,
-				FDDE2F362A952F1300BF2788 /* EquipmentTableView.swift */,
-				FDDE2F382A95305200BF2788 /* EquipmentContentView.swift */,
 				FDB615702A954D3C003A86E9 /* PrimaryButton.swift */,
 			);
 			path = Views;
@@ -153,10 +146,11 @@
 		FDDED0082A93E2F0003546BC /* BootcampTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				FDF4D6132A95F9D4000A4628 /* EquipmentDetails */,
+				FDF4D6122A95F5AA000A4628 /* EquipmentList */,
 				FDDE2F2C2A95299B00BF2788 /* Extensions */,
 				FDDE2F292A9528E800BF2788 /* Protocols */,
 				FDDE2F242A95281800BF2788 /* Views */,
-				FDDE2F232A95230600BF2788 /* Controllers */,
 				FDDE2F1D2A951D0B00BF2788 /* Services */,
 				FDDE2F172A950EAE00BF2788 /* Models */,
 				FDDED01E2A93E9CD003546BC /* Resources */,
@@ -184,6 +178,26 @@
 				FDDE2F3E2A9542BE00BF2788 /* Reachability.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDF4D6122A95F5AA000A4628 /* EquipmentList */ = {
+			isa = PBXGroup;
+			children = (
+				FDDE2F362A952F1300BF2788 /* EquipmentTableView.swift */,
+				FDDE2F272A9528CA00BF2788 /* EquipmentTableViewCell.swift */,
+				FDDE2F382A95305200BF2788 /* EquipmentContentView.swift */,
+				FDDED00D2A93E2F0003546BC /* EquipmentViewController.swift */,
+			);
+			path = EquipmentList;
+			sourceTree = "<group>";
+		};
+		FDF4D6132A95F9D4000A4628 /* EquipmentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4D6142A95F9F0000A4628 /* EquipmentDetailsViewController.swift */,
+				FDF4D6162A95FA10000A4628 /* EquipmentDetailsContentView.swift */,
+			);
+			path = EquipmentDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,7 @@
 				FDDE2F1C2A9519D800BF2788 /* EquipmentModel.swift in Sources */,
 				FDDE2F372A952F1300BF2788 /* EquipmentTableView.swift in Sources */,
 				FDDE2F282A9528CA00BF2788 /* EquipmentTableViewCell.swift in Sources */,
+				FDF4D6172A95FA10000A4628 /* EquipmentDetailsContentView.swift in Sources */,
 				FDDED00E2A93E2F0003546BC /* EquipmentViewController.swift in Sources */,
 				FDDED00A2A93E2F0003546BC /* AppDelegate.swift in Sources */,
 				FDDE2F1F2A951D1A00BF2788 /* EquipmentService.swift in Sources */,
@@ -272,6 +287,7 @@
 				FDDED00C2A93E2F0003546BC /* SceneDelegate.swift in Sources */,
 				FDDE2F2B2A95290C00BF2788 /* BTTIdentifiable.swift in Sources */,
 				FDB615712A954D3C003A86E9 /* PrimaryButton.swift in Sources */,
+				FDF4D6152A95F9F0000A4628 /* EquipmentDetailsViewController.swift in Sources */,
 				FDDE2F3B2A95340200BF2788 /* Applyable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

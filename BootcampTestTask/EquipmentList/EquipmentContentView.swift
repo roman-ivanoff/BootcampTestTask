@@ -23,10 +23,10 @@ class EquipmentContentView: UIView {
         addAutoLayoutSubviews(tableView, indicator, tryAgainButton)
 
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor, constant: 0),
-            tableView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 0),
-            tableView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 0),
-            tableView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor, constant: 0),
+            tableView.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor),
+            tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            tableView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor),
 
             indicator.centerXAnchor.constraint(equalTo: centerXAnchor),
             indicator.centerYAnchor.constraint(equalTo: centerYAnchor),
